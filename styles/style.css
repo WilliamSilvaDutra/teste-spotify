@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Estilos gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ :root{
+    --color-green:#1DB954;
+    --light-green: #1ed760;
+ }
+
+ /*Estilos gerais*/
+
+ body{
+    background-color: black;
+
+ }
+
+ a{
+     text-decoration: none;
+     color: white;
+ }
+
+ ul{
+     list-style: none;
+ }
+
+ .logo{
+     height: 50px;
+     width:auto;
+ }
+ 
+
+ /*================================*/
+
+
+/*MENU*/
+
+#navbar{
+    max-width: 1500px;
+    margin: 0 auto;
+    
+}
+
+.navbar-container{
+    display: flex;
+    max-width: 1500x;
+    margin:10px 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-items{
+    display: flex;
+ 
+}
+
+.navbar-items-list{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navbar-items-list:nth-child(3){
+    border-right: 1px solid white;
+}
+
+@media(max-width: 800px){
+    .navbar-container{
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    } 
+}
+/*================================*/
+
+/*MAIN*/
+#main-container{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/showcase.webp)center center/cover;
+    background-blend-mode: color;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.main-content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.main-content h1{
+    margin-bottom: 10px;
+    color: antiquewhite;
+    font-size: 3rem;
+    
+}
+
+.main-content p{
+    margin-bottom: 10px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.main-content button{
+    background-color: var(--light-green);
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+/*================================*/
+
+/*SECTION*/
+
+#section{
+    max-width:1500px;
+    margin: 0 auto;
+    display: flex;
+    
+    
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px; 
+    
+}
+
+.section-items{
+    margin: 0 50px;
+
+}
+
+.topic-list{
+    padding-bottom: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+.section-items-list{
+    padding-bottom: 8px;
+    font-weight: lighter;
+}
+
+@media(max-width:900px){
+
+    #section{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .section-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-items{
+        padding-top: 20px;
+    }
+}
+
+/*================================*/
+/*SOCIALS*/
+
+#socials{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.link-social{
+    display: flex;
+    
+    
+   
+}
+
+.logo-social{
+    width: auto;
+    height: 50px;
+    margin: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+@media(max-width:900px){
+
+    #socials{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .link-social{
+        display: block ;
+        flex-wrap: wrap;
+        
+    }
+}
+
+/*================================*/
+
+/*FOOTER*/
+
+#footer{
+    max-width: 1500px;
+    margin: 0 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.footer-items{
+    display: flex;
+    margin: 50px 80px;
+}
+
+.policies{
+    margin: 0 10px;
+    font-size: small;
+    
+}
+
+.policies a{
+    color: gray;
+}
+
+#country{
+    max-width: 1500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 144px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.country-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+#country li{
+    color: antiquewhite;
+}
+
+
+@media(max-width:900px){
+
+    .footer-items {
+        display: flex;
+        margin: 50px 80px;
+        flex-wrap: wrap;
+    }
+}
+
+/*================================*/
