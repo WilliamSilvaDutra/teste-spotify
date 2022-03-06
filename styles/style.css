@@ -31,9 +31,10 @@
  }
 
  .logo{
-     height: 50px;
-     width:auto;
- }
+    height: 40px;
+    width: auto;
+}
+
  
 
  /*================================*/
@@ -42,8 +43,9 @@
 /*MENU*/
 
 #navbar{
-    max-width: 1500px;
-    margin: 0 auto;
+    max-width: 1920px;
+    margin: 20px auto;
+    padding: 0px 280px;
     
 }
 
@@ -132,18 +134,21 @@
 /*SECTION*/
 
 #section{
-    max-width:1500px;
-    margin: 0 auto;
+    max-width: 1920px;
+    margin: 0px auto;
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 31px;
+    height: 383px
     
     
 }
 
 .section-container{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 50px; 
+    justify-content: center;
+    margin: 50px;
     
 }
 
@@ -153,9 +158,11 @@
 }
 
 .topic-list{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color: gray;
     font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
 }
 
 .section-items-list{
@@ -187,13 +194,7 @@
 /*SOCIALS*/
 
 #socials{
-    max-width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    align-items: flex-start;
-    margin-top: 40px;
-    flex-wrap: wrap;
-    
+    display: flex;    
     
 }
 
@@ -206,9 +207,9 @@
 
 .logo-social{
     width: auto;
-    height: 50px;
+    height: 52px;
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: gray;
     padding: 10px;
     border-radius: 25px;
 }
@@ -232,22 +233,22 @@
 /*FOOTER*/
 
 #footer{
-    max-width: 1500px;
-    margin: 0 48px;
+    max-width: 1920px;
+    margin: 0px auto;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: space-around;
+    align-items: baseline;;
 
 }
 
 .footer-items{
     display: flex;
-    margin: 50px 80px;
+    margin: 10px 0px 10px 190px;
 }
 
 .policies{
     margin: 0 10px;
-    font-size: small;
+    font-size: 0.9rem;
     
 }
 
@@ -256,7 +257,7 @@
 }
 
 #country{
-    max-width: 1500px;
+    max-width: 1920px;
     display: flex;
     justify-content: flex-end;
     margin-right: 144px;
@@ -273,7 +274,9 @@
     
 }
 #country li{
-    color: antiquewhite;
+    color: white;
+    display: flex;
+    justify-content: end;
 }
 
 
