@@ -65,6 +65,7 @@
 .navbar-items-list{
     padding: 0 20px;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .navbar-items-list:nth-child(3){
