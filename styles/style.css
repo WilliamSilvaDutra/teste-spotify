@@ -43,9 +43,8 @@
 /*MENU*/
 
 #navbar{
-    max-width: 1920px;
+    max-width: 1366px;
     margin: 20px auto;
-    padding: 0px 280px;
     
 }
 
@@ -134,13 +133,13 @@
 /*SECTION*/
 
 #section{
-    max-width: 1920px;
+    max-width: 1366px;
     margin: 0px auto;
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    margin-top: 31px;
-    height: 383px
+    align-items: flex-start;
+    margin-top: 60px;
+    height: 410px;
     
     
 }
@@ -166,7 +165,7 @@
 }
 
 .section-items-list{
-    padding-bottom: 8px;
+    padding-bottom: 20px;
     font-weight: lighter;
 }
 
