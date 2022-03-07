@@ -51,7 +51,6 @@
 
 .navbar-container{
     display: flex;
-    max-width: 1500x;
     margin:10px 100px;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +85,7 @@
 
 /*MAIN*/
 #main-container{
-    max-width: 1920px;
+    max-width: 1366px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -233,7 +232,7 @@
 /*FOOTER*/
 
 #footer{
-    max-width: 1920px;
+    max-width: 1366px;
     margin: 0px auto;
     display: flex;
     justify-content: space-around;
@@ -257,7 +256,7 @@
 }
 
 #country{
-    max-width: 1920px;
+    max-width: 1366px;
     display: flex;
     justify-content: flex-end;
     margin-right: 144px;
