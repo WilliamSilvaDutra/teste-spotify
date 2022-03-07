@@ -147,9 +147,8 @@
 }
 
 .section-container{
-    display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 12px 50px 50px 0;
     
 }
 
