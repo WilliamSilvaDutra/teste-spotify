@@ -139,21 +139,21 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 60px;
-    height: 410px;
+    margin-top: 62px;
+    height: 400px;
     
     
 }
 
 .section-container{
+    display: flex;
     justify-content: center;
-    margin: 12px 50px 50px 0;
+    margin: 37px 70px 50px 0;
     
 }
 
 .section-items{
-    margin: 0 50px;
-
+    margin: 12px 50px;
 }
 
 .topic-list{
@@ -161,7 +161,7 @@
     color: gray;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .section-items-list{
@@ -193,7 +193,8 @@
 /*SOCIALS*/
 
 #socials{
-    display: flex;    
+    display: flex;
+    padding-top: 40px;    
     
 }
 
@@ -235,14 +236,16 @@
     max-width: 1366px;
     margin: 0px auto;
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
 
 }
 
 .footer-items{
     display: flex;
-    margin: 10px 0px 10px 190px;
+    margin: 0px 0px 10px 90px;
+    height: 64px;
 }
 
 .policies{
@@ -259,23 +262,26 @@
     max-width: 1366px;
     display: flex;
     justify-content: flex-end;
-    margin-right: 144px;
+    margin-right: 123px;
     padding-bottom: 20px;
     
     
 }
 
 .country-content{
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     
 }
 #country li{
-    color: white;
     display: flex;
     justify-content: end;
+    color: gray;
+}
+
+#country li a{
+    color: grey;
 }
 
 
