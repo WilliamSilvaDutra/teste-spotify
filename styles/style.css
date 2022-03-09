@@ -391,3 +391,23 @@
 
 
 }
+
+@media(max-width:390px){
+    .navbar-container {
+       
+        margin: 10px px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .main-content {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 48px;
+        max-width: 390px;
+    }
+}
