@@ -49,13 +49,13 @@
     
 }
 
-.navbar-container{
-    display: flex;
-    margin:10px 100px;
-    justify-content: space-between;
-    align-items: center;
-    
-}
+
+.navbar-container {
+        display: flex;
+        margin: 10px 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 .navbar-items{
     display: flex;
