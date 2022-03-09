@@ -252,23 +252,12 @@
 
 /*================================*/
 
-@media(max-width: 1920px){
-    .navbar-container {
-        display: flex;
-        margin: 10px 713px;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-}
-
-
-
 
 @media(max-width: 1920px){
     #navbar {
         margin: 20px auto;
     }
+
 
 
     #main-container {
