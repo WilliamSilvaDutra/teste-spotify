@@ -47,6 +47,7 @@
     max-width: 1366px;
     margin: 20px auto;
     
+    
 }
 
 
@@ -55,10 +56,12 @@
         margin: 10px 100px;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
     }
 
 .navbar-items{
     display: flex;
+    flex-wrap: wrap;
  
 }
 
@@ -252,18 +255,9 @@
 
 @media(max-width: 1920px){
     #navbar {
-        max-width: 1920px;
         margin: 20px auto;
     }
 
-    .navbar-container {
-        display: flex;
-        margin: 10px 404px;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        
-    }
 
     #main-container {
         max-width: 1920px;
@@ -379,6 +373,7 @@
         justify-content: end;
         color: gray;
         padding-bottom: 4px;
+    }
 
 
 }
