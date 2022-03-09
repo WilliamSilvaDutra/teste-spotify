@@ -42,7 +42,7 @@
 
 
 /*MENU*/
-@media(max-width:1366px){
+
 #navbar{
     max-width: 1366px;
     margin: 20px auto;
@@ -245,7 +245,7 @@
     color: grey;
 }
 
-}
+
 
 /*================================*/
 
