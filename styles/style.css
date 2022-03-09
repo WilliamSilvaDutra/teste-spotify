@@ -252,6 +252,19 @@
 
 /*================================*/
 
+@media(max-width:2560px) {
+    #main-container {
+        max-width: 2560px;
+    }
+    
+    .main-content h1 {
+        font-size: 5.5rem;
+    }
+
+    .main-content h1 {
+        font-size: 1.2rem;
+    }
+}
 
 @media(max-width: 1920px){
     #navbar {
