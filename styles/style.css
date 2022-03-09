@@ -250,7 +250,7 @@
 /*================================*/
 
 
-@media(max-width: 1920px){
+@media(min-width: 1920px){
     #navbar {
         max-width: 1920px;
         margin: 20px auto;
@@ -262,6 +262,7 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        
     }
 
     #main-container {
